@@ -6,8 +6,8 @@
     "description": "a JSON schema for time-history based data for DTHive/DigiTwin",
     "required": [
         "version",
-        "testname",
-        "timestamp"
+        "testName",
+        "timeStamp"
     ],
     "properties": {
         "version": {
