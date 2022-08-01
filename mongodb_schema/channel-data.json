@@ -34,10 +34,10 @@
                 },
                 {
                     "required": [
-                        "unit"
+                        "units"
                     ],
                     "properties": {
-                        "unit": {
+                        "units": {
                             "bsonType": "string",
                             "title": "channel unit",
                             "description": "the channel unit assosiated with the channel type (see https://github.com/dynamics-research-group/pbshm-schema/blob/master/channel-data.md#channel-types for more information)"
@@ -131,7 +131,7 @@
                                     "acceleration"
                                 ]
                             },
-                            "unit": {
+                            "units": {
                                 "enum": [
                                     "m/s^2",
                                     "g",
@@ -157,7 +157,7 @@
                                     "velocity"
                                 ]
                             },
-                            "unit": {
+                            "units": {
                                 "enum": [
                                     "m/s",
                                     "v",
@@ -182,7 +182,7 @@
                                     "displacement"
                                 ]
                             },
-                            "unit": {
+                            "units": {
                                 "enum": [
                                     "mm",
                                     "cm",
@@ -209,7 +209,7 @@
                                     "angularAcceleration"
                                 ]
                             },
-                            "unit": {
+                            "units": {
                                 "enum": [
                                     "degrees/s^2",
                                     "radians/s^2",
@@ -234,7 +234,7 @@
                                     "angularVelocity"
                                 ]
                             },
-                            "unit": {
+                            "units": {
                                 "enum": [
                                     "degrees/s",
                                     "radians/s",
@@ -259,7 +259,7 @@
                                     "angularDisplacement"
                                 ]
                             },
-                            "unit": {
+                            "units": {
                                 "enum": [
                                     "degrees",
                                     "radians",
@@ -284,7 +284,7 @@
                                     "tilt"
                                 ]
                             },
-                            "unit": {
+                            "units": {
                                 "enum": [
                                     "degrees",
                                     "radians",
@@ -309,7 +309,7 @@
                                     "strain"
                                 ]
                             },
-                            "unit": {
+                            "units": {
                                 "enum": [
                                     "nd",
                                     "other"
@@ -333,7 +333,7 @@
                                     "tension"
                                 ]
                             },
-                            "unit": {
+                            "units": {
                                 "enum": [
                                     "fN",
                                     "pN",
@@ -371,7 +371,7 @@
                                     "load"
                                 ]
                             },
-                            "unit": {
+                            "units": {
                                 "enum": [
                                     "fN",
                                     "pN",
@@ -409,7 +409,7 @@
                                     "structuralPotentialHydrogen"
                                 ]
                             },
-                            "unit": {
+                            "units": {
                                 "enum": [
                                     "pH",
                                     "other"
@@ -433,7 +433,7 @@
                                     "temperature"
                                 ]
                             },
-                            "unit": {
+                            "units": {
                                 "enum": [
                                     "C",
                                     "F",
@@ -459,7 +459,7 @@
                                     "humidity"
                                 ]
                             },
-                            "unit": {
+                            "units": {
                                 "enum": [
                                     "%",
                                     "other"
@@ -483,7 +483,7 @@
                                     "speed"
                                 ]
                             },
-                            "unit": {
+                            "units": {
                                 "enum": [
                                     "mph",
                                     "ft/s",
@@ -511,7 +511,7 @@
                                     "direction"
                                 ]
                             },
-                            "unit": {
+                            "units": {
                                 "enum": [
                                     "degrees",
                                     "radians",
@@ -536,7 +536,7 @@
                                     "pressure"
                                 ]
                             },
-                            "unit": {
+                            "units": {
                                 "enum": [
                                     "fPa",
                                     "pPa",
@@ -578,7 +578,7 @@
                                     "altitude"
                                 ]
                             },
-                            "unit": {
+                            "units": {
                                 "enum": [
                                     "mm",
                                     "cm",
@@ -606,7 +606,7 @@
                                     "pitch"
                                 ]
                             },
-                            "unit": {
+                            "units": {
                                 "enum": [
                                     "degrees",
                                     "radians",
@@ -631,7 +631,7 @@
                                     "yaw"
                                 ]
                             },
-                            "unit": {
+                            "units": {
                                 "enum": [
                                     "degrees",
                                     "radians",
@@ -656,7 +656,7 @@
                                     "roll"
                                 ]
                             },
-                            "unit": {
+                            "units": {
                                 "enum": [
                                     "degrees",
                                     "radians",
@@ -681,7 +681,7 @@
                                     "pitchRate"
                                 ]
                             },
-                            "unit": {
+                            "units": {
                                 "enum": [
                                     "degrees/s",
                                     "radians/s",
@@ -706,7 +706,7 @@
                                     "yawRate"
                                 ]
                             },
-                            "unit": {
+                            "units": {
                                 "enum": [
                                     "degrees/s",
                                     "radians/s",
@@ -731,7 +731,7 @@
                                     "rollRate"
                                 ]
                             },
-                            "unit": {
+                            "units": {
                                 "enum": [
                                     "degrees/s",
                                     "radians/s",
@@ -756,7 +756,7 @@
                                     "current"
                                 ]
                             },
-                            "unit": {
+                            "units": {
                                 "enum": [
                                     "fA",
                                     "pA",
@@ -794,7 +794,7 @@
                                     "charge"
                                 ]
                             },
-                            "unit": {
+                            "units": {
                                 "enum": [
                                     "fC",
                                     "pC",
@@ -832,7 +832,7 @@
                                     "power"
                                 ]
                             },
-                            "unit": {
+                            "units": {
                                 "enum": [
                                     "fW",
                                     "pW",
@@ -870,7 +870,7 @@
                                     "voltage"
                                 ]
                             },
-                            "unit": {
+                            "units": {
                                 "enum": [
                                     "fV",
                                     "pV",
@@ -908,7 +908,7 @@
                                     "resistance"
                                 ]
                             },
-                            "unit": {
+                            "units": {
                                 "enum": [
                                     "fΩ",
                                     "pΩ",
@@ -946,7 +946,7 @@
                                     "capacitance"
                                 ]
                             },
-                            "unit": {
+                            "units": {
                                 "enum": [
                                     "fF",
                                     "pF",
@@ -984,7 +984,7 @@
                                     "inductance"
                                 ]
                             },
-                            "unit": {
+                            "units": {
                                 "enum": [
                                     "fH",
                                     "pH",
@@ -1022,7 +1022,7 @@
                                     "frequency"
                                 ]
                             },
-                            "unit": {
+                            "units": {
                                 "enum": [
                                     "fHz",
                                     "pHz",
@@ -1060,7 +1060,7 @@
                                     "conductance"
                                 ]
                             },
-                            "unit": {
+                            "units": {
                                 "enum": [
                                     "fS",
                                     "pS",
@@ -1098,7 +1098,7 @@
                                     "magneticFlux"
                                 ]
                             },
-                            "unit": {
+                            "units": {
                                 "enum": [
                                     "fWb",
                                     "pWb",
@@ -1136,7 +1136,7 @@
                                     "magneticFieldStrength"
                                 ]
                             },
-                            "unit": {
+                            "units": {
                                 "enum": [
                                     "fT",
                                     "pT",

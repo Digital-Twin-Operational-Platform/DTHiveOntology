@@ -56,7 +56,7 @@
                             },
                             {
                                 "bsonType": "double",
-                                "minimum": 0.0
+                                "minimum": 0
                             }
                         ],
                         "title": "sensor gain",
@@ -73,7 +73,14 @@
                         ]
                     },
                     "date": {
-                        "bsonType": "date",
+                        "oneOf": [
+                            {
+                                "bsonType": "date"
+                            },
+                            {
+                                "bsonType": "string"
+                            }
+                        ],
                         "title": "calibration date",
                         "description": "Date of last calibration"
                     }
@@ -96,6 +103,9 @@
                             },
                             {
                                 "bsonType": "double"
+                            },
+                            {
+                                "bsonType": "string"
                             }
                         ],
                         "title": "X location",
@@ -108,6 +118,9 @@
                             },
                             {
                                 "bsonType": "double"
+                            },
+                            {
+                                "bsonType": "string"
                             }
                         ],
                         "title": "Y location",
@@ -120,6 +133,9 @@
                             },
                             {
                                 "bsonType": "double"
+                            },
+                            {
+                                "bsonType": "string"
                             }
                         ],
                         "title": "Z location",
@@ -132,6 +148,7 @@
                         "enum": [
                             "m",
                             "cm",
+                            "mm",
                             "km",
                             "other"
                         ]
